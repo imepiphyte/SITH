@@ -32,7 +32,7 @@ test_test2 = SITH.Test(1, 2)
 test_harness.add_test(test_test1)
 test_harness.add_test(test_test2)
 
-print(test_harness.run_tests) # should output (1, 1)
+print(test_harness.run_tests()) # should output (1, 1)
 
 ```
 
